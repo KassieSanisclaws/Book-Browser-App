@@ -1,1 +1,35 @@
-<p>book-card works!</p>
+<article class="book-card">
+    <div class="cover">
+        @if (coverUrl) {
+            <img [src]="coverUrl" [alt]="book.volumeInfo.title" />
+        } @else {
+            <div class="no-cover">No cover available</div>
+        }
+    </div>
+
+    <div class="book-information">
+         <h3>{{ book.volumeInfo.title }}</h3>
+         <p class="author">{{ authors }}</p>
+
+         <p class="published">
+            Published: {{ book.volumeInfo.publishedDate ?? 'Unknown' }}
+         </p>
+
+         <div class="card-actions">
+            <a [routerLink]="['/book', book.id]">
+                View Details
+            </a>
+
+            <button
+               type="button"
+               (click)="toggleFavorite()"
+               [attr.aria-pressed]="favoritiesService.isFavorite(book)"
+               >
+                {{ favoritiesService.isFavorite(book) 
+                    ? 'Saved' 
+                    : 'Favorite' 
+                }}
+            </button>
+      </div>
+  </div>
+</article>
