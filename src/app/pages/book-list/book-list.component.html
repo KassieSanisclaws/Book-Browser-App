@@ -1,1 +1,37 @@
-<p>book-list works!</p>
+<section class="catalog-page">
+    <h2>Explore Book Browser Site</h2>
+    <p>Discover Books By Title, Author, Or Topic.</p>
+
+    <app-book-search (search)="searchBooks($event)"/>
+
+    @if (loading()) {
+        <p class="status">Loading Books...</p>
+    } @else if (error) {
+        <p class="error" role="alert">{{error() }}</p>
+    } @else {
+        <div class="catalog-toolbar">
+            <p>
+               Showing {{ bookCount() }} books for "{{ searchTerm() }}"
+            </p>
+
+        <label>
+            Category:
+                 <select [value]="selectedCategory()" [change]="changeCategory($event)">
+                      @for (category of categories(); track category) {
+                        <option [value]="category">{{ category }}</option>
+                      }
+                 </select>
+              </label>
+            </div>
+
+       @if (filteredBooks().length === 0) {
+        <p class="status ">No Books Found</p>
+       } @else {
+        <div class="book-grid"> 
+         @for (book of filteredBooks(); track book.id) {
+            <app-book-card [book]="book" />
+         } 
+        </div>
+       }
+    }
+</section>

@@ -1,0 +1,122 @@
+{
+  "totalItems": 12,
+  "items": [
+    {
+      "id":"local-angular-basics",
+      "volumeInfo":{
+                     "title":"Angular Fundamentals: Components and Templates",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"A classroom practice book about standalone components, templates, interpolation, property binding and event binding.",
+                     "publishedDate":"2026",
+                     "categories":["Angular","Web Development"],
+                     "pageCount":180
+                     }
+    },
+    {
+      "id":"local-signals",
+      "volumeInfo":{
+                     "title":"Understanding Angular Signals",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Practice writable signals, computed signals, and reactive state in an Angular application.",
+                     "publishedDate":"2026",
+                     "categories":["Angular","TypeScript"],
+                     "pageCount":145
+                    }
+    },
+    {
+      "id":"local-http",
+      "volumeInfo":{
+                     "title":"HTTP Services in Angular",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"A learning resource covering HttpClient, dependency injection, observables, error handling and API requests.",
+                     "publishedDate":"2026",
+                     "categories":["Angular","APIs"],
+                     "pageCount":160
+                    }
+    },
+    {
+      "id":"local-routing",
+      "volumeInfo":{
+                     "title":"Routing Modern Angular Applications",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Explore routes, route parameters, navigation links, and component-based page layouts.",
+                     "publishedDate":"2026",
+                     "categories":["Angular","Web Development"],
+                     "pageCount":130
+                    }
+    },
+    {
+      "id":"local-forms",
+      "volumeInfo":{
+                     "title":"Reactive Forms and Validation",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Exercises using FormControl, FormGroup, validators, and form submission.",
+                     "publishedDate":"2026",
+                     "categories":["Angular","Forms"],
+                     "pageCount":155
+                    }
+    },
+    {
+      "id":"local-typescript",
+      "volumeInfo":{
+                     "title":"TypeScript for Beginners",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Introduction to interfaces, types, classes, optional properties, and typed functions.",
+                     "publishedDate":"2026",
+                     "categories":["TypeScript","Programming"],
+                     "pageCount":200
+                    }
+    },
+    {
+      "id":"local-javascript",
+      "volumeInfo":{
+                     "title":"JavaScript Essentials",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Learn arrays, objects, functions, asynchronous programming, and browser APIs.",
+                     "publishedDate":"2026",
+                     "categories":["JavaScript","Programming"],
+                     "pageCount":210
+                    }
+    },
+    {"id":"local-html","volumeInfo":{
+                     "title":"HTML and Semantic Web Pages",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Build accessible pages with semantic HTML, forms, links, headings, and images.",
+                     "publishedDate":"2026",
+                     "categories":["HTML","Web Development"],
+                     "pageCount":120
+                    }},
+    {"id":"local-css","volumeInfo":{
+                     "title":"CSS Layouts with Grid and Flexbox",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Practice responsive layouts, CSS Grid, Flexbox, spacing, and media queries.",
+                     "publishedDate":"2026",
+                     "categories":["CSS","Web Development"],
+                     "pageCount":140
+                    }},
+    {"id":"local-git","volumeInfo":{
+                     "title":"Git and Version Control",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"A beginner guide to commits, branches, repositories, and collaboration.",
+                     "publishedDate":"2026",
+                     "categories":["Git","Development Tools"],
+                     "pageCount":110
+                    }},
+    {"id":"local-testing","volumeInfo":{
+                     "title":"Testing Angular Components",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Practice unit tests, component tests, and testing services with mock responses.",
+                     "publishedDate":"2026",
+                     "categories":["Angular","Testing"],
+                     "pageCount":175
+                    }},
+    {"id":"local-accessibility","volumeInfo":{
+                     "title":"Accessible Web Applications",
+                     "authors":["Book Browser Teaching Team"],
+                     "description":"Learn accessible labels, keyboard navigation, contrast, and meaningful feedback.",
+                     "publishedDate":"2026",
+                     "categories":["Accessibility","Web Development"],
+                     "pageCount":135
+                    }}
+  ]
+}

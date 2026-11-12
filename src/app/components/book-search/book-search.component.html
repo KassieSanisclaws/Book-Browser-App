@@ -1,1 +1,22 @@
-<p>book-search works!</p>
+<form (ngSubmit)="submitSearch()" class="search-form">
+    <label for="bookSearch">Search For Books</label>
+
+    <div class="search-control">
+        <input 
+            id="bookSearch"
+            type="text"
+            [formControl]="searchControl"
+            placeholder="Enter A Title, Author, Or Keyword In Book Search" 
+        />
+
+        <button type="submit" [disabled]="searchControl.invalid">
+            Search
+        </button>
+    </div>
+
+    @if (searchControl.touched && searchControl.invalid) {
+        <p class="error">
+            Please Enter At Least 3 Characters.
+        </p>
+    }
+</form>
